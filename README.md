@@ -39,7 +39,9 @@ The persistence comparator, held-out category breakdown, and a
 leave-one-prompt-out sensitivity check were added as dated post-run
 amendments (versions 1.1 and 1.2) after the original primary result was
 viewed. This provenance is recorded in `PROTOCOL.md`; none of them is
-presented as part of the original preregistration.
+presented as part of the original pre-specification. The protocol is
+author-reported: the released Git history begins after the analysis, so it
+proves the released artifact, not the earlier ordering.
 
 All checkpoints are tokenized with the tokenizer from the `step143000`
 commit; the tokenizer files are byte-identical across the three pinned
@@ -74,7 +76,7 @@ pipeline, using only public models:
   noted in the results and make cross-checkpoint spectral differences
   directly comparable.
 - **Richer dictionaries and ranks.** The dictionary and PCA rank are fixed
-  here for preregistration. A held-out sweep would show how much additional
+  here by the pre-specified protocol. A held-out sweep would show how much additional
   predictive structure a larger observable basis recovers.
 - **Behavioral linkage.** The protocol's interpretation boundary names the
   missing step: predict a specific retention behavior from a spectral
@@ -85,7 +87,7 @@ pipeline, using only public models:
   It applies to any model that exposes per-token hidden states, including
   state-space models, RNNs, and hybrids.
 
-If you extend this, preregister your settings the way `PROTOCOL.md` does, and
+If you extend this, pre-specify your settings the way `PROTOCOL.md` does, and
 keep the shuffled-pairing and persistence controls: the predictive gate, not
 the appearance of the spectrum, is the evidence.
 
@@ -166,7 +168,7 @@ statement of what that field did, then the citation.
 What we have not found published elsewhere is this exact combination:
 token-time EDMD on the hidden-state trajectories of a language model,
 compared across pinned public training checkpoints, and gated by a
-preregistered held-out prediction test with shuffled-pairing and persistence
+pre-specified held-out prediction test with shuffled-pairing and persistence
 controls. The combination, not the mathematics, is the claim, and it is
 small enough to check. If you know earlier work that already does exactly
 this, please open an issue and we will cite it.
