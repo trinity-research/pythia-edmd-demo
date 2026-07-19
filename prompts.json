@@ -1,0 +1,153 @@
+{
+  "title": "Disclosed EDMD probe corpus",
+  "version": "1.0",
+  "license": "CC0-1.0",
+  "note": "All passages were written for this demonstration. Splits and categories were fixed before model execution.",
+  "prompts": [
+    {
+      "id": "train-periodic-colors",
+      "split": "train",
+      "category": "periodic",
+      "text": "red orange yellow green blue violet red orange yellow green blue violet red orange yellow green blue violet red orange yellow green blue violet red orange yellow green blue violet red orange yellow green blue violet"
+    },
+    {
+      "id": "train-periodic-directions",
+      "split": "train",
+      "category": "periodic",
+      "text": "north east south west north east south west north east south west north east south west north east south west north east south west north east south west north east south west"
+    },
+    {
+      "id": "train-periodic-seasons",
+      "split": "train",
+      "category": "periodic",
+      "text": "spring summer autumn winter spring summer autumn winter spring summer autumn winter spring summer autumn winter spring summer autumn winter spring summer autumn winter"
+    },
+    {
+      "id": "train-periodic-weekdays",
+      "split": "train",
+      "category": "periodic",
+      "text": "Monday Tuesday Wednesday Thursday Friday Saturday Sunday Monday Tuesday Wednesday Thursday Friday Saturday Sunday Monday Tuesday Wednesday Thursday Friday Saturday Sunday Monday Tuesday Wednesday Thursday Friday Saturday Sunday"
+    },
+    {
+      "id": "train-periodic-notes",
+      "split": "train",
+      "category": "periodic",
+      "text": "do re mi fa sol la ti do re mi fa sol la ti do re mi fa sol la ti do re mi fa sol la ti do re mi fa sol la ti"
+    },
+    {
+      "id": "train-periodic-shapes",
+      "split": "train",
+      "category": "periodic",
+      "text": "circle square triangle diamond circle square triangle diamond circle square triangle diamond circle square triangle diamond circle square triangle diamond circle square triangle diamond circle square triangle diamond"
+    },
+    {
+      "id": "train-progressive-integers",
+      "split": "train",
+      "category": "progressive",
+      "text": "one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twenty one twenty two twenty three twenty four twenty five twenty six twenty seven twenty eight twenty nine thirty"
+    },
+    {
+      "id": "train-progressive-alphabet",
+      "split": "train",
+      "category": "progressive",
+      "text": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+    },
+    {
+      "id": "train-progressive-steps",
+      "split": "train",
+      "category": "progressive",
+      "text": "At step one the lamp is dim. At step two the lamp is warmer. At step three the lamp is bright. At step four the lamp is brighter. At step five the lamp is brightest. Then the sequence begins again with a dim lamp and advances one step at a time."
+    },
+    {
+      "id": "train-progressive-months",
+      "split": "train",
+      "category": "progressive",
+      "text": "January opens the year, February follows January, March follows February, April follows March, May follows April, June follows May, July follows June, August follows July, September follows August, October follows September, November follows October, and December closes the year."
+    },
+    {
+      "id": "train-prose-workshop",
+      "split": "train",
+      "category": "prose",
+      "text": "Before opening the workshop, Mira checked the windows, swept a thin line of dust from the bench, and placed each tool beside its matching gauge. The first visitor brought a clock that lost a minute every hour. Mira listened to its uneven beat, adjusted one small spring, and waited in silence while the hands completed a careful circle."
+    },
+    {
+      "id": "train-prose-garden",
+      "split": "train",
+      "category": "prose",
+      "text": "The community garden occupied a narrow strip between the library and the river path. Each bed carried a wooden sign, but rain had softened the painted names. On Saturday morning the neighbors replaced the signs, tied the tomatoes to their stakes, and shared a basket of beans with anyone who stopped to ask what was growing."
+    },
+    {
+      "id": "train-prose-map",
+      "split": "train",
+      "category": "prose",
+      "text": "A paper map can reveal more than a route. Its folds remember which roads were studied most often, pencil marks preserve abandoned plans, and a pale ring may show where a cup rested during a long discussion. Lena spread the map across the table and traced three possible paths before choosing the quiet road beside the lake."
+    },
+    {
+      "id": "train-prose-weather",
+      "split": "train",
+      "category": "prose",
+      "text": "Clouds gathered over the western ridge during the afternoon, yet the air in town remained warm and still. Shopkeepers carried their signs inside before the first gust arrived. A brief shower darkened the pavement, cooled the stone walls, and moved east before sunset, leaving only bright drops on the telephone wires."
+    },
+    {
+      "id": "train-prose-library",
+      "split": "train",
+      "category": "prose",
+      "text": "The smallest room in the library held atlases, field guides, and several shelves of local history. People rarely hurried there. They compared old photographs with familiar streets, followed vanished rail lines across brittle maps, and wrote notes for relatives who had moved away. The librarian kept soft pencils nearby so no one needed to mark a book."
+    },
+    {
+      "id": "train-prose-bread",
+      "split": "train",
+      "category": "prose",
+      "text": "Jon mixed flour, water, salt, and yeast in a broad blue bowl. The dough first clung to his hands, then became smooth as he folded it against the counter. While it rested, he repaired a loose cabinet hinge. By evening the loaf had risen above the pan and the kitchen smelled warm and faintly sweet."
+    },
+    {
+      "id": "train-prose-ferry",
+      "split": "train",
+      "category": "prose",
+      "text": "The ferry crossed the channel every forty minutes. Commuters knew which side offered shelter from the wind and tourists knew which side faced the lighthouse. Halfway across, the engine settled into a steady hum. Gulls followed briefly, turned toward the harbor, and disappeared behind the white wake."
+    },
+    {
+      "id": "train-prose-radio",
+      "split": "train",
+      "category": "prose",
+      "text": "An old radio sat on the shelf above the desk. Its dial was stiff and its speaker added a quiet hiss to every station, but late at night it could still catch distant voices. Arun wrote down each city he heard, along with the hour and the weather, then compared the list with the next evening's signals."
+    },
+    {
+      "id": "test-periodic-elements",
+      "split": "test",
+      "category": "periodic",
+      "text": "wood fire earth metal water wood fire earth metal water wood fire earth metal water wood fire earth metal water wood fire earth metal water wood fire earth metal water wood fire earth metal water"
+    },
+    {
+      "id": "test-periodic-sky",
+      "split": "test",
+      "category": "periodic",
+      "text": "sun moon star cloud sun moon star cloud sun moon star cloud sun moon star cloud sun moon star cloud sun moon star cloud sun moon star cloud sun moon star cloud"
+    },
+    {
+      "id": "test-progressive-countdown",
+      "split": "test",
+      "category": "progressive",
+      "text": "twenty nineteen eighteen seventeen sixteen fifteen fourteen thirteen twelve eleven ten nine eight seven six five four three two one zero twenty nineteen eighteen seventeen sixteen fifteen fourteen thirteen twelve eleven ten nine eight seven six five four three two one zero"
+    },
+    {
+      "id": "test-progressive-pairs",
+      "split": "test",
+      "category": "progressive",
+      "text": "AA AB AC AD AE AF AG AH AI AJ AK AL AM AN AO AP AQ AR AS AT AU AV AW AX AY AZ BA BB BC BD BE BF BG BH BI BJ BK BL BM BN BO BP"
+    },
+    {
+      "id": "test-prose-observatory",
+      "split": "test",
+      "category": "prose",
+      "text": "At dusk the observatory roof rolled aside and the room filled with cooler air. Nia checked the alignment twice before pointing the telescope above the trees. The first target appeared as a bright point, the second as a faint blur, and the third never cleared the drifting haze. She recorded all three outcomes in the same careful hand."
+    },
+    {
+      "id": "test-prose-bicycle",
+      "split": "test",
+      "category": "prose",
+      "text": "The bicycle had waited in the shed through two winters. Its tires were soft, the chain was dry, and one reflector hung at an angle. Mateo cleaned each part, replaced a cracked cable, and rode slowly around the block. On the second lap the gears changed cleanly and the wheels kept a straight, quiet line."
+    }
+  ]
+}
+

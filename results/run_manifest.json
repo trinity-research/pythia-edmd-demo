@@ -1,0 +1,50 @@
+{
+  "checkpoints": [
+    {
+      "commit": "5b020995bfc7aee2931b0f35bd70cf7ee8b1db62",
+      "label": "step1000",
+      "step": 1000
+    },
+    {
+      "commit": "b9935f34c34c4bddaa99bed4c2ed3fc8e67c7504",
+      "label": "step10000",
+      "step": 10000
+    },
+    {
+      "commit": "f1545025bb394553a7f4e547db0874886f05ef9c",
+      "label": "step143000",
+      "step": 143000
+    }
+  ],
+  "file_sha256": {
+    "PROTOCOL.md": "5011a8a2d47856b951cd2a3531fcdcc240db0dc0ac20180c2d331ed39457d490",
+    "analyze.py": "e3e04572e3d3742d07a85a2ab95f0790c1f8e0fb9244029967b6d3508ca238da",
+    "prompts.json": "48374171c72cf820f12b400ef49b2f4bf5e3d3d2ed20d6de7267eb9a7382ae87"
+  },
+  "model_id": "EleutherAI/pythia-14m",
+  "offline_mode": true,
+  "packages": {
+    "huggingface-hub": "1.24.0",
+    "matplotlib": "3.11.0",
+    "numpy": "2.4.4",
+    "safetensors": "0.8.0",
+    "torch": "2.11.0",
+    "transformers": "5.14.1"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "settings": {
+    "burn_in_tokens": 4,
+    "horizons": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "max_tokens": 128,
+    "pca_rank": 16,
+    "ridge": 0.001,
+    "seed": 20260718,
+    "shuffle_repeats": 50
+  }
+}
